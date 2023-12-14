@@ -1,0 +1,62 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "MyFirstPackageApp",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "My first package",
+      "dependencies": [
+        {
+          "package": "MyFirstPackageApp2",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    },
+    {
+      "path": "force-app/MyApp",
+      "package": "MyFirstPackageApp2",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "My second package"
+    },
+    {
+      "path": "force-app/ParentApp",
+      "package": "ParentAppPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "Parent app package"
+    },
+    {
+      "path": "force-app/ChildApp",
+      "package": "ChildAppPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "Child app package",
+      "dependencies": [
+        {
+          "package": "ParentAppPackage",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    }
+  ],
+  "name": "ScratchOrgExample",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "58.0",
+  "packageAliases": {
+    "MyFirstPackageApp": "0Ho7Q000000TNQgSAO",
+    "MyFirstPackageApp@0.1.0-1": "04t7Q000000yII7QAM",
+    "MyFirstPackageApp2": "0Ho7Q000000TNQlSAO",
+    "MyFirstPackageApp2@0.1.0-1": "04t7Q000000yIICQA2",
+    "ParentAppPackage": "0Ho7Q000000TNQqSAO",
+    "ChildAppPackage": "0Ho7Q000000TNQvSAO",
+    "ParentAppPackage@0.1.0-1": "04t7Q000000yIIMQA2",
+    "ChildAppPackage@0.1.0-1": "04t7Q000000yIIRQA2"
+  }
+}
