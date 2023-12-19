@@ -43,6 +43,38 @@
           "versionNumber": "0.1.0.LATEST"
         }
       ]
+    },
+    {
+      "path": "./EasySpace/easy-spaces-lwc/es-base-styles",
+      "default": false,
+      "package": "EsStylesPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Parent app package"
+    },
+    {
+      "path": "./EasySpace/easy-spaces-lwc/es-base-code",
+      "default": false,
+      "package": "EsCodePackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Parent app package"
+    },
+    {
+      "path": "./EasySpace/easy-spaces-lwc/es-space-mgmt",
+      "default": false,
+      "package": "EsMgmtPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Parent app package"
+    },
+    {
+      "path": "./EasySpace/easy-spaces-lwc/es-base-objects",
+      "package": "EsObjectackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "Parent app package"
     }
   ],
   "name": "ScratchOrgExample",
@@ -57,6 +89,11 @@
     "ParentAppPackage": "0Ho7Q000000TNQqSAO",
     "ChildAppPackage": "0Ho7Q000000TNQvSAO",
     "ParentAppPackage@0.1.0-1": "04t7Q000000yIIMQA2",
-    "ChildAppPackage@0.1.0-1": "04t7Q000000yIIRQA2"
+    "ChildAppPackage@0.1.0-1": "04t7Q000000yIIRQA2",
+    "EsCodePackage": "0Ho7Q000000TNR5SAO",
+    "EsStylesPackage": "0Ho7Q000000TNRASA4",
+    "EsMgmtPackage": "0Ho7Q000000TNRFSA4",
+    "EsObjectackage": "0Ho7Q000000TNRKSA4",
+    "EsObjectackage@0.1.0-1": "04t7Q000000yIIbQAM"
   }
 }
