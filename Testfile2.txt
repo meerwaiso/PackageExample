@@ -1,1 +1,2 @@
 test file 2
+Bug1 fixed on local branch "FixBug1"
